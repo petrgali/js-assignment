@@ -146,7 +146,9 @@ a {
 }
 
 @media all and (max-width: 768px) {
-  .responsive-table .table-header {
+  .responsive-table .table-header .col-1,
+  .responsive-table .table-header .col-2,
+  .responsive-table .table-header .col-4 {
     display: none;
   }
   .responsive-table div {
@@ -154,8 +156,6 @@ a {
   }
   .responsive-table .col {
     flex-basis: 100%;
-  }
-  .responsive-table .col {
     display: flex;
     padding: 10px 0;
   }
